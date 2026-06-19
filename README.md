@@ -12,7 +12,7 @@ Ce dépôt a été réalisé dans un cadre pédagogique autour de la programmati
 - Compiler correctement le programme à l’aide du `Makefile`.
 - Identifier les erreurs d’exécution ou de mémoire.
 - Utiliser des outils de débogage comme **GDB** et **Valgrind**.
-- Documenter les observations et les corrections apportées [web:1561][web:1563].
+- Documenter les observations et les corrections apportées.
 
 ## Outils utilisés
 
@@ -20,7 +20,7 @@ Ce dépôt a été réalisé dans un cadre pédagogique autour de la programmati
 - **Build system** : Make / Makefile
 - **Debug** : GDB
 - **Analyse mémoire** : Valgrind
-- **Environnement** : Linux / Unix [web:1561][web:1564]
+- **Environnement** : Linux / Unix 
 
 ## Structure du projet
 
@@ -29,7 +29,7 @@ Ce dépôt a été réalisé dans un cadre pédagogique autour de la programmati
 - `Makefile` : compilation du projet.
 - `README.md` : présentation du dépôt.
 - `Rapport_Analyse_BLAS_Bensmail.pdf` : rapport principal d’analyse.
-- `TD1_Debugging and Profiling.pdf` : document complémentaire sur le débogage et le profiling [file:1550][file:1569].
+- `TD1_Debugging and Profiling.pdf` : document complémentaire sur le débogage et le profiling.
 
 ## Compilation
 
@@ -60,12 +60,12 @@ Ce projet permet de :
 - mieux comprendre l’organisation d’un code C modulaire ;
 - pratiquer la compilation avec `make` ;
 - apprendre à localiser des erreurs logiques ou mémoire ;
-- renforcer les bases en développement scientifique et en débogage bas niveau [web:1560][web:1567].
+- renforcer les bases en développement scientifique et en débogage bas niveau.
 
 ## Documentation
 
 - `Rapport_Analyse_BLAS_Bensmail.pdf`
-- `TD1_Debugging and Profiling.pdf` [file:1550]
+- `TD1_Debugging and Profiling.pdf` 
 
 ## Auteur
 
