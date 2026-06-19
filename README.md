@@ -1,10 +1,10 @@
 # Analyse et débogage d’un projet C basé sur BLAS
 
-Ce projet présente l’analyse, la compilation et le débogage d’un programme C structurant une petite bibliothèque numérique basée sur **BLAS** (*Basic Linear Algebra Subprograms*). Le travail porte sur la compréhension de l’architecture du code, l’identification des erreurs et l’utilisation d’outils classiques de diagnostic sous environnement Unix [web:1560][web:1384].
+Ce projet présente l’analyse, la compilation et le débogage d’un programme C structurant une petite bibliothèque numérique basée sur **BLAS** (*Basic Linear Algebra Subprograms*). Le travail porte sur la compréhension de l’architecture du code, l’identification des erreurs et l’utilisation d’outils classiques de diagnostic sous environnement Unix.
 
 ## Contexte
 
-Ce dépôt a été réalisé dans un cadre pédagogique autour de la programmation scientifique en C. L’objectif principal est de manipuler un projet modulaire avec fichiers source, en-têtes, Makefile et outils de débogage afin de comprendre les bonnes pratiques de développement et de validation d’un code numérique [web:1560][web:1567].
+Ce dépôt a été réalisé dans un cadre pédagogique autour de la programmation scientifique en C. L’objectif principal est de manipuler un projet modulaire avec fichiers source, en-têtes, Makefile et outils de débogage afin de comprendre les bonnes pratiques de développement et de validation d’un code numérique.
 
 ## Objectifs
 
@@ -20,7 +20,7 @@ Ce dépôt a été réalisé dans un cadre pédagogique autour de la programmati
 - **Build system** : Make / Makefile
 - **Debug** : GDB
 - **Analyse mémoire** : Valgrind
-- **Environnement** : Linux / Unix 
+- **Environnement** : Linux / Unix
 
 ## Structure du projet
 
@@ -46,13 +46,11 @@ make clean
 make
 ```
 
-Un README technique gagne à fournir des commandes simples, vérifiables et directement réutilisables pour faciliter la prise en main du projet [web:1560][web:1571].
-
 ## Débogage et analyse
 
-Le projet a été étudié à l’aide d’outils classiques de débogage et d’analyse mémoire, notamment **GDB** pour l’exécution pas à pas et **Valgrind** pour la détection d’erreurs mémoire [web:1561][web:1565].
+Le projet a été étudié à l’aide d’outils classiques de débogage et d’analyse mémoire, notamment **GDB** pour l’exécution pas à pas et **Valgrind** pour la détection d’erreurs mémoire.
 
-Le nom exact de l’exécutable dépend de la cible définie dans le `Makefile`. Il peut être identifié après compilation selon l’organisation choisie dans le projet [web:1572][web:1574].
+Le nom exact de l’exécutable dépend de la cible définie dans le `Makefile`. Il peut être identifié après compilation selon l’organisation choisie dans le projet.
 
 ## Résultats attendus
 
@@ -65,7 +63,7 @@ Ce projet permet de :
 ## Documentation
 
 - `Rapport_Analyse_BLAS_Bensmail.pdf`
-- `TD1_Debugging and Profiling.pdf` 
+- `TD1_Debugging and Profiling.pdf`
 
 ## Auteur
 
